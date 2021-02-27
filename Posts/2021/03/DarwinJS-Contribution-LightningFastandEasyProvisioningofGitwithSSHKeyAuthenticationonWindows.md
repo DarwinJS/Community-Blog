@@ -58,9 +58,7 @@ This code also lowers complexity in other ways:
 
 ### Mission Impossible Coding Principal 3: Enable Zero Footprint Execution of the Latest Version (Directly From Repository)
 
-Like many Mission Impossible Code examples, this one is designed and test to be executed directly from a git raw URL to make it easily used from a single repository location.  Here is the command to run it from the source location:
-
-`Invoke-Expression -command "Invoke-WebRequest -uri 'https://gitlab.com/missionimpossiblecode/MissionImpossibleCode/-/raw/master/install-gitwithssh.ps1' -UseBasicParsing -OutFile ./install-gitwithssh.ps1" ; . ./install-gitwithssh.ps1`
+Like many Mission Impossible Code examples, this one is designed and test to be executed directly from a git raw URL to make it easily used from a single repository location. The first code snippet under Solution Details below shows how to use this feature.
 
 ### Code Behavior
 
